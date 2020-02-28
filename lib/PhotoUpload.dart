@@ -72,6 +72,7 @@ class _UploadPhotoPageState extends State<UploadPhotoPage>{
       "date": date,
       "time": time,
     };
+    
     //storing to database
     ref.child("Posts").push().set(data);
   }
